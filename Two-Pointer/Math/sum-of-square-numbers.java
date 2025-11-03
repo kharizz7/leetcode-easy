@@ -1,14 +1,14 @@
-Given a non-negative integer c, decide whether there're two integers a and b such that a2 + b2 = c.
-Example 1:
+// Given a non-negative integer c, decide whether there're two integers a and b such that a2 + b2 = c.
+// Example 1:
 
-Input: c = 5
-Output: true
-Explanation: 1 * 1 + 2 * 2 = 5
+// Input: c = 5
+// Output: true
+// Explanation: 1 * 1 + 2 * 2 = 5
 
-Example 2:
+// Example 2:
 
-Input: c = 3
-Output: false
+// Input: c = 3
+// Output: false
 
   class Solution {
     public boolean judgeSquareSum(int c) {
