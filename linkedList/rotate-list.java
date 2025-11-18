@@ -30,7 +30,8 @@ class Solution {
             temp = temp.next;
             n++;
         }
-
+        // now temp.next=null
+        //when temp.next = head it makes circular linked list
         // moves the head
         temp.next = head;
 
